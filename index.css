@@ -21,10 +21,21 @@ margin-right: 0.5rem;
 .navbar a{
     color: var(--secondary-white);
 }
+
 .nav-links{
     margin-left: auto;
 }
 
+.nav-links .fa-heart{
+    color: var(--secondary-white);
+    padding: 0;
+    border: none;
+}
+
+.nav-links .fa-heart:hover{
+    color: var(--secondary-white);
+    background-color: transparent;
+}
 
 .main{
     position: relative;
