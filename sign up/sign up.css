@@ -1,0 +1,5 @@
+@import '../login/login.css';
+
+.full-name{
+    justify-content: space-between !important;
+}
