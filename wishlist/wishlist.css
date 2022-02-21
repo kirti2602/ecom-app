@@ -19,12 +19,14 @@
 .btn-wishlist i{
     color: var(--primary-violet);
     cursor: pointer;
-    font-size: large;
+    font-size: 1.5rem;
 }
-.card-rating{
+
+#card-rating{
     margin-right: auto;
-    background-color: var(--primary-violet) !important;
+    background-color: var(--primary-violet);
 }
-.label-badge{
-    background-color: var(--primary-violet) !important;
+
+#label-badge{
+    background-color: var(--primary-violet);
 }
