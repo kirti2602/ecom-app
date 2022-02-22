@@ -1,0 +1,55 @@
+@import '../index.css';
+
+.main{
+    padding: 2rem 1rem;
+}
+
+
+.card-outer-body{
+    max-width: min-content;
+    box-shadow: 1px 1px 10px var(--gray);
+}
+
+.card-inner-body{
+    max-width: min-content;
+}
+
+.info-btn-outline{
+    color: var(--primary-violet);
+    border: 1px solid var(--primary-violet) !important;
+}
+
+#wishlist-btn-outline{
+    border: 2px solid var(--primary-violet);
+    color: var(--primary-violet);
+}
+
+#wishlist-btn-outline:hover{
+    background-color: transparent;
+}
+
+#label-badge{
+    background-color: var(--primary-violet);
+}
+
+.cart-cards{
+    width: 100%;
+    gap: 2rem;
+}
+
+
+.price-only > div{
+    width: 100% !important;
+    justify-content: space-between !important;
+   column-gap: 2rem;
+}
+
+hr{
+    width: 100%;
+}
+
+.cart-heading{
+    text-align: center;
+    font-size: 2rem;
+}
+
