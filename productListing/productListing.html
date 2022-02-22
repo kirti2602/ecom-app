@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="productListing.css">
+    <link rel="stylesheet" href="https://miraculib.netlify.app/main.css">
+
+    <script src="https://kit.fontawesome.com/07628739a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section class="homepage">
+        <nav class="navbar box-shadow">
+            <h2 class="brand-name flex"><a href="../index.html">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    miracuStore</a>
+            </h2>
+
+            <div class="nav-links flex">
+                <a href="wishlist.html">
+                    <i class="fa-solid fa-heart"></i>
+                </a>
+                <a href="../cart/cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="../login/login.html">
+                    <p>Login</p>
+                </a>
+                <a href="../sign up/sign up.html">
+                    <p>Sign Up</p>
+                </a>
+                <a href="../sign out/sign out.html">
+                    <p>Sign Out</p>
+                </a>
+            </div>
+        </nav>
+
+        <aside class="aside">
+            <div class="filter">
+                <strong>Filters</strong>
+                <a href="">Clear</a>
+            </div>
+
+            <div class="slider-price">
+                <strong>Price</strong>
+
+                <div class="slidecontainer">
+                    <span>100</span>
+                    <input type="range" min="100" max="1000" value="50" class="slider" id="myRange">
+                    <span>1000</span>
+                </div>
+            </div>
+
+            <div class="category">
+                <strong>Category</strong>
+                <div class="">
+                    <input type="checkbox">
+                    Mugs
+                </div>
+
+                <div class="">
+                    <input type="checkbox">
+                    Action Figures
+                </div>
+            </div>
+
+            <div class="rating">
+                <strong>Ratings</strong>
+
+                <span>
+                    <input type="radio" name="4star"> 4 Star & above
+                </span>
+
+                <span>
+                <input type="radio" name="4star"> 3 Star & above
+                </span>
+
+                <span>
+                <input type="radio" name="4star"> 2 Star & above
+                </span>
+
+                <span>
+                <input type="radio" name="4star"> 1 Star & above
+                </span>
+            </div>
+
+
+            <div class="sort-by">
+                <strong>Sort by</strong>
+                <span>
+                    <input type="radio" name="sort"> Price-Low to high
+                </span>
+
+                <span>
+                    <input type="radio" name="sort"> Price-High to low
+                </span>
+
+                <span>
+                    <input type="radio" name="sort"> Discount
+
+                </span>
+
+                <span>
+                    <input type="radio" name="sort"> Popularity
+                </span>
+            </div>
+        </aside>
+
+
+        <main class="main">
+            <h1 class="wishlist-heading">Wishlist Management</h1>
+
+            <!-- card1 -->
+
+            <div class="wishlist-container flex">
+                <div class="card-outer-body">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../assets/uraraka.jpg" alt="">
+                            <span class="label-badge" id="label-badge">Trending</span>
+                            <button class="dismiss"><i class="fas fa-heart fa-lg"></i></button>
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Ochaco Uraraka Action Figure | MHA</span> <br>
+                            <small class="card-rating" id="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class=" btn-wishlist"><i class="fas fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="card-outer-body ">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../assets/shikamaru.jpg" alt="">
+                            <span class="label-badge" id="label-badge">Trending</span>
+                            <button class="dismiss"><i class="fas fa-heart fa-lg"></i></button>
+
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Ochaco Uraraka Action Figure | MHA</span> <br>
+                            <small class="card-rating" id="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class=" btn-wishlist"><i class="fas fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- card3 -->
+                <div class="card-outer-body  ">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../assets/shikamaru.jpg" alt="">
+                            <span class="label-badge" id="label-badge">Trending</span>
+                            <button class="dismiss"><i class="fas fa-heart fa-lg"></i></button>
+
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Ochaco Uraraka Action Figure | MHA</span> <br>
+                            <small class="card-rating" id="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class=" btn-wishlist"><i class="fas fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- card 4 -->
+                <div class="card-outer-body  ">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../assets/shikamaru.jpg" alt="">
+                            <span class="label-badge" id="label-badge">Trending</span>
+                            <button class="dismiss"><i class="fas fa-heart fa-lg"></i></button>
+
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Ochaco Uraraka Action Figure | MHA</span> <br>
+                            <small class="card-rating" id="card-rating"><i class="fas fa-star"></i> 5</small>
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class=" btn-wishlist"><i class="fas fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 5 -->
+                <div class="card-outer-body  ">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../assets/shikamaru.jpg" alt="">
+                            <span class="label-badge" id="label-badge">Trending</span>
+                            <button class="dismiss"><i class="fas fa-heart fa-lg"></i></button>
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Ochaco Uraraka Action Figure | MHA</span> <br>
+                            <small class="card-rating" id="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class=" btn-wishlist"><i class="fas fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+
+        <footer class="footer flex">
+            <small>Made with ❤ by <strong class="imp-data">Kirti Sharma </strong></small>
+
+            <div class="footer-links flex">
+                <a href="https://github.com/kirti2602"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kirti--sharma/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/_keeerti"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
