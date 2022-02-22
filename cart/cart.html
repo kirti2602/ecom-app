@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://miraculib.netlify.app/main.css">
+
+    <script src="https://kit.fontawesome.com/07628739a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section class="homepage">
+        <nav class="navbar box-shadow">
+            <h2 class="brand-name flex"><a href="../index.html">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    miracuStore</a>
+            </h2>
+
+            <div class="nav-links flex">
+                <a href="wishlist.html">
+                    <i class="fa-solid fa-heart"></i>
+                </a>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="../login/login.html">
+                    <p>Login</p>
+                </a>
+                <a href="../sign up/sign up.html">
+                    <p>Sign Up</p>
+                </a>
+                <a href="../sign out/sign out.html">
+                    <p>Sign Out</p>
+                </a>
+            </div>
+        </nav>
+
+
+
+        <main class="main">
+            <h1 class="cart-heading">Cart Management</h1>
+
+            <section class="cart-cards flex">
+
+                <div class="card-outer-body">
+                    <div class="card-inner-body horizontal-card">
+
+                        <div class="img-body">
+                            <img src="../assets/bakugo-resize.jpg" alt="">
+                            <span class="label-badge" id="label-badge">Trending</span>
+                        </div>
+
+                        <button class="dismiss"><i class="fas fa-times-circle fa-lg"></i></button>
+
+                        <div class="card-info flex">
+                            <h2>Wembley Toys</h2>
+                            <span class="card-title">Jiraya Sensei Action Figure | Naruto Shippendun</span> <br>
+                            <small> <button>+</button> 1 <button> - </button> </small>
+
+                            <div class="price-wishlist flex column-direction">
+
+                                <div class="price-only flex">
+                                    <span class="current-price">₹1079</span>
+                                    <small class="previous-price">₹2000</small>
+                                    <small class="discount">46% off</small>
+                                </div>
+
+
+                                <div class="cart-wishlist">
+                                    <button class="btn info-btn">
+                                        Remove
+                                    </button>
+
+                                    <button class="btn info-btn-outline" id="wishlist-btn-outline">
+                                        Wishlist</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <!-- checkout card -->
+
+                <div class="card-outer-body checkout-card">
+                    <div class="card-inner-body">
+
+
+                        <div class="card-info flex">
+                            <strong class="card-title">Price Details</strong>
+                            <hr>
+                            <div class="price-wishlist flex column-direction">
+
+                                <div class="price-only flex">
+                                    <div class="flex"> <strong>Price(2 items)</strong>
+                                        <small>₹4899</small>
+                                    </div>
+                                    <div class="flex">
+                                        <strong>Discount</strong>
+                                        <small>-₹1999</small>
+                                    </div>
+                                    <div class="flex">
+                                        <strong>Delivery Charges</strong>
+                                        <small>₹499</small>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="flex">
+                                        <strong>Total Amount</strong>
+                                        <strong>₹3499</strong>
+                                    </div>
+<hr>
+                                    <small>You will save ₹1999 on this order</small>
+                                </div>
+
+                                <button class="btn error-btn-outline outline-hover">
+                                    Checkout</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="footer flex">
+            <small>Made with ❤ by <strong class="imp-data">Kirti Sharma </strong></small>
+
+            <div class="footer-links flex">
+                <a href="https://github.com/kirti2602"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kirti--sharma/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/_keeerti"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
